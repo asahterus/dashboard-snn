@@ -11,7 +11,7 @@ function Fitur() {
         </p>
       </div>
 
-      <div className="flex items-center gap-20 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <Card
           imgLink={'/pdb_pengeluaran.jpeg'}
           url={'/pdrb-pengeluaran'}
@@ -27,6 +27,24 @@ function Fitur() {
           title={'Dashboard Laju Pertumbuhan Ekonomi'}
           desc={
             'Visualisasi data laju pertumbuhan ekonomi untuk membantu analisis faktor-faktor yang mempengaruhi pertumbuhan ekonomi.'
+          }
+        />
+
+        <Card
+          imgLink={'/pdrb_2023.jpg'}
+          url={'/pdrb-2023'}
+          title={'Dashboard PDRB Tahun 2023'}
+          desc={
+            'Visualisasi jumlah nilai tambah bruto yang timbul dari seluruh sektor perekonomian di Indonesia.'
+          }
+        />
+
+        <Card
+          imgLink={'/indikator_perekonomian.jpg'}
+          url={'/indikator-perekonomian'}
+          title={'Dashboard Indikator Perekonomian Indonesia'}
+          desc={
+            'Visualisasi data statistik yang menunjukkan kinerja ekonomi suatu negara.'
           }
         />
       </div>
