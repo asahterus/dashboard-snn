@@ -7,7 +7,7 @@ function Fitur() {
       <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-warna4">Fitur</h2>
         <p className="font-light text-gray-400 sm:text-lg">
-          Kami menyediakan 2 dashboard yang dapat membantu untuk melakukan analisis terkait Laju Pertumbuhan Ekonomi dan PDRB Menurut Pengeluaran
+          Kami menyediakan 4 dashboard yang dapat membantu untuk melakukan analisis terkait Laju Pertumbuhan Ekonomi dan PDRB Menurut Pengeluaran
         </p>
       </div>
 
