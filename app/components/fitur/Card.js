@@ -18,8 +18,8 @@ function Card({ imgLink, title, desc, url }) {
      
 
       <div className="card-body">
-        <h2 className="card-title text-warna1">{title}</h2>
-        <p className='text-gray-500 text-sm'>{desc}</p>
+        <h2 className="card-title text-center text-warna1">{title}</h2>
+        <p className='text-gray-500 text-center text-sm'>{desc}</p>
         <div className="card-actions justify-end">
           <Link href={url} className="btn btn-outline btn-primary">
             Lihat
